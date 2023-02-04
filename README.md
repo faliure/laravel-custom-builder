@@ -21,7 +21,7 @@ The second argument, optional, is a generic `$callback` that will apply to any f
 
 Normally, you would not use the second argument, but instead would define different callbacks for different final methods. This is done by calling `Builder@setCallback()` or `Builder@setCallbacks()`, as in the following examples:
 
-```
+```php
 use Faliure\LaravelCustomBuilder\Builder;
 
 # Generic callback for all final methods
