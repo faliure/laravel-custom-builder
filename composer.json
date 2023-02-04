@@ -1,0 +1,21 @@
+{
+    "name": "faliure/laravel-custom-builder",
+    "description": "Custom Eloquent Builders to manipulate its results as defined",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faliure\\LaravelCustomBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Barreiro Indart",
+            "email": "diego.bindart@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "^9.50"
+    }
+}
